@@ -1,0 +1,21 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 95px 150px 95px;
+    gap: 8px;
+    text-align: center;
+}
+.head{
+    background-color: yellow;
+    grid-column: 1/4;
+}
+.div1,.div3{
+    background-color: lightgreen;
+}
+.div2{
+    background-color: rgb(122, 226, 221);
+}
+.footer{
+    background-color: yellow;
+    grid-column: 1/4;
+}
